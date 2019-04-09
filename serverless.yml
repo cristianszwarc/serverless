@@ -1,0 +1,22 @@
+service: serverless-playground
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  main:
+    handler: src/handler.main
+    events:
+      - http:
+          path: /
+          method: get
+  colors:
+    handler: src/handler.colors
+    events:
+      - http:
+          path: /colors
+          method: get
+
+plugins:
+  - serverless-offline

@@ -79,3 +79,4 @@ Deploy (dev or production)
 serverless deploy --stage dev
 ```
 
+License MIT

@@ -1,7 +1,9 @@
 
-# Serverless playground #
+# Serverless simple example #
 
 Small NodeJS project to play with AWS Lambda.
+
+This repository shows a basic Lambda function with test coverage. 
 
 For the sake of simplicity the data is kept as part of the source code, but some minimal steps were taken to allow future upgrades to enable this to load data from an external source.
 

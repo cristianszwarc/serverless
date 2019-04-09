@@ -1,5 +1,5 @@
 
-# Serverless simple example #
+# Simple AWS Lambda/Serverless example with test coverage #
 
 Small NodeJS project to play with AWS Lambda.
 
